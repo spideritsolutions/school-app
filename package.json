@@ -1,0 +1,41 @@
+{
+  "name": "school-management-system",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "frontend": "vite",
+    "backend": "nodemon --exec tsx backend/src/server.ts",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tailwindcss/vite": "^4.2.2",
+    "axios": "^1.7.0",
+    "bcryptjs": "^3.0.3",
+    "chart.js": "^4.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.20.0",
+    "react-icons": "^5.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.4",
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.14",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.2.2",
+    "vite": "^8.0.1"
+  }
+}
